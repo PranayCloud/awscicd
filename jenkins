@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	stages {
 		stage('Submit Stack') {
-			sh "aws clloudformation create-stack --stack-name instance1 --template-body file://instance.json
+			sh "aws clloudformation create-stack --stack-name instance1 --template-body file://instance.json"
 			}
 		}
 		
